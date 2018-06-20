@@ -1,0 +1,302 @@
+* {
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/iconfont.woff') format('woff'),
+  url('../fonts/iconfont.ttf') format('truetype'),
+  url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-weight: normal;
+  font-style:normal;
+  display: inline-block;
+  vertical-align: middle;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-text-stroke-width: 0;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+}
+body{
+  font-family:'Microsoft YaHei';
+}
+.container{
+  background: #fff;
+  font-size:16px;
+  width:920px;
+  padding:0;
+  height:auto;
+  margin:0 auto;
+  position:relative;
+  /*overflow: hidden;*/
+}
+
+
+/**
+ *  CV Header Part
+ ---------------------------*/
+.content-box .cv-header{
+  display:block;
+  width:100%;
+  clear:both;
+  margin-bottom:1.95em;
+}
+.center{
+  text-align: center;
+}
+.content-box .cv-name{
+  font-size:1.95em;
+  font-weight:600;
+  margin-bottom: .34em;
+}
+.content-box .cv-ps{
+  font-size:1.2em;
+  line-height: 1.2em;
+}
+.content-box .cv-ps-en{
+  font-size:1.1em;
+  line-height: 1.2em;
+  margin-bottom:.45em;
+}
+.content-box .status{
+  font-size:1.2em;
+  line-height: 2.2em;
+  margin-bottom: .5em;
+}
+.medium-bold{
+  font-weight:500;
+}
+.content-box .cv-contact{
+  display:inline;
+  font-size:.95em;
+  color:#363636!important;
+  font-weight:500!important;
+  line-height: 1.5em;
+}
+.content-box .cv-contact .iconfont{
+  margin-right:.18em;
+  font-size:1em;
+}
+.content-box .cv-contact span,
+.content-box .cv-contact a{
+  margin-right:1em;
+}
+.container .content-box .cv-contact a{
+  text-decoration: none;
+  color:#363636;
+}
+.content-box .cv-contact a:hover{
+  text-decoration: none;
+  color:#363636;
+}
+.content-box .cv-avatar{
+  width:17%;
+  height:auto;
+  border-radius:50%;
+  border:.1em solid #fafafa;
+  float:right;
+}
+.content-box .cv-position{
+  font-size:1.2em;
+  font-weight:700;
+  margin-top:.8em;
+}
+
+
+
+/**
+ *  Main-Content Part
+ ---------------------------*/
+.content-box .cv-content{
+  display:block;
+  width:100%;
+  position:relative;
+  clear:both;
+}
+.title{
+  font-size:1.375em;
+  font-weight: 700;
+  line-height: 2.1em;
+  padding-left: 2px;
+  margin-bottom: .15em;
+  border-bottom: .073em solid #555;
+}
+.section{
+  padding-bottom:1.6em
+}
+
+
+
+/**
+ *   Skills Part
+ ---------------------------*/
+.bold{
+  font-weight: 700
+}
+.skills .title, .evaluate .title{
+  margin-bottom: .5em;
+}
+.skills .description{
+  line-height: 1.9em
+}
+.description .iconfont{
+  font-size:1.2em;
+  margin-top: -.05em;
+  margin-right:.15em;
+}
+.skills .description, .description-en{
+  padding-left:1.6em;
+}
+.skills .description .iconfont, .description-en .iconfont{
+  margin-right:.4em;
+  margin-left: -1.4em
+}
+
+
+
+/**
+ *   Work-Experience Part
+ ---------------------------*/
+.com-title{
+  font-size:1.126em;
+  font-weight: 700;
+  line-height: 2.6em;
+  line-height: 2em;
+}
+.com-title .position{
+  font-weight:400;
+}
+.time{
+  font-size:.95em;
+  font-weight:400;
+  float: right;
+}
+.com-title-en{
+  font-size:1.125em;
+  font-weight: 700;
+  line-height: 1.8em;
+  padding-left: 2px;
+  margin-top: .4em
+}
+.com-title-first{
+  margin-top: .2em;
+}
+.com-title-next{
+  margin-top: .6em;
+}
+.position-en{
+  font-weight:500;
+  font-size: 1.125em;
+  padding-left: 2px;
+  line-height: 1.6em;
+  margin-bottom:.55em;
+  font-style: italic;
+}
+.italic{
+  font-style: italic;
+}
+.sub-title{
+  font-size:1em;
+  font-weight: 700;
+  line-height: 2.1em;
+  padding-left: 2px;
+  margin-top: .3em;
+}
+.sub-title-en{
+  font-size:1em;
+  font-weight: 700;
+  line-height: 1.75em;
+  padding-left:1.71em;
+  margin-top: .4em;
+  margin-bottom: .2em
+}
+.sub-title-en .num{
+  margin-right:.7em;
+  margin-left: -1.56em
+}
+.description-en{
+  line-height: 1.7em;
+
+
+}
+.description-en .iconfont{
+  font-size:1.2em;
+  margin-top: -.05em;
+  margin-right:.15em;
+}
+.desc{
+  font-weight:400;
+}
+.num{
+  margin-right:.76em;
+}
+.project .description{
+  padding-left:2.9em;
+  line-height: 1.7em;
+}
+.project .description .iconfont{
+  margin-left:-1.4em;
+  margin-right:.2em;
+  margin-top: -.1em;
+}
+
+
+
+
+
+/**
+ *   Self-Evaluate Part
+ ---------------------------*/
+.evaluate .description{
+  line-height: 2em;
+  padding-left:1.85em;
+}
+.evaluate .description .iconfont{
+  font-size: 1.0625em;
+  margin-right:.65em;
+  margin-left:-1.6em;
+}
+
+
+
+/**
+ *   Education Part
+ ---------------------------*/
+.cv-content h3{
+  font-size: 1.0625em;
+  font-weight: 500;
+  margin-bottom: .4em;
+}
+.location{
+  font-weight:400;
+  float: right;
+  font-size: .94em;
+}
+
+
+
+/**
+ *   Responsive Part
+ ---------------------------*/
+@media (max-width: 900px) {
+
+}
+@media (max-width: 1160px) {
+
+}
